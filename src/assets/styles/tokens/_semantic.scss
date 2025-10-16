@@ -1,0 +1,81 @@
+// Semantic Tokens (Tier-2): Contextual meaning applied to palette tokens
+@use 'palette' as palette;
+
+// Surface Colors
+$surface-primary: palette.$grey-50;
+$surface-secondary: palette.$grey-100;
+$surface-tertiary: palette.$grey-200;
+$surface-elevated: #ffffff;
+$surface-brand: palette.$blue-600;
+$surface-brand-subtle: palette.$blue-50;
+
+// Text Colors
+$text-primary: palette.$grey-900;
+$text-secondary: palette.$grey-700;
+$text-subtle: palette.$grey-500;
+$text-inverse: #ffffff;
+$text-brand: palette.$blue-600;
+$text-success: palette.$green-700;
+$text-warning: palette.$orange-700;
+
+// Border Colors
+$border-subtle: palette.$grey-200;
+$border-default: palette.$grey-300;
+$border-strong: palette.$grey-400;
+$border-focus: palette.$blue-500;
+$border-success: palette.$green-400;
+$border-warning: palette.$orange-400;
+
+// Interactive Colors
+$interactive-primary: palette.$blue-600;
+$interactive-primary-hover: palette.$blue-700;
+$interactive-primary-active: palette.$blue-800;
+$interactive-secondary: palette.$grey-100;
+$interactive-secondary-hover: palette.$grey-200;
+$interactive-secondary-active: palette.$grey-300;
+
+// Status Colors
+$status-success: palette.$green-500;
+$status-success-subtle: palette.$green-100;
+$status-warning: palette.$orange-500;
+$status-warning-subtle: palette.$orange-100;
+$status-error: #ef4444;
+$status-error-subtle: #fef2f2;
+
+// Layout Spacing
+$layout-gap-xs: palette.$space-2;
+$layout-gap-sm: palette.$space-4;
+$layout-gap-md: palette.$space-6;
+$layout-gap-lg: palette.$space-8;
+$layout-gap-xl: palette.$space-12;
+$layout-gap-2xl: palette.$space-16;
+
+// Component Spacing
+$component-gap-xs: palette.$space-1;
+$component-gap-sm: palette.$space-2;
+$component-gap-md: palette.$space-4;
+$component-gap-lg: palette.$space-6;
+$component-gap-xl: palette.$space-8;
+
+// Typography Semantic
+$text-display: palette.$text-4xl;
+$text-heading-1: palette.$text-3xl;
+$text-heading-2: palette.$text-2xl;
+$text-heading-3: palette.$text-xl;
+$text-heading-4: palette.$text-lg;
+$text-body-lg: palette.$text-lg;
+$text-body: palette.$text-base;
+$text-body-sm: palette.$text-sm;
+$text-caption: palette.$text-xs;
+
+// Border Radius Semantic
+$border-radius-sm: palette.$radius-sm;
+$border-radius-md: palette.$radius-md;
+$border-radius-lg: palette.$radius-lg;
+$border-radius-full: palette.$radius-full;
+
+// Shadow Semantic
+$shadow-subtle: palette.$shadow-sm;
+$shadow-default: palette.$shadow-base;
+$shadow-elevated: palette.$shadow-md;
+$shadow-prominent: palette.$shadow-lg;

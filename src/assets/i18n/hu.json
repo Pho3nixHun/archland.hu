@@ -1,0 +1,195 @@
+{
+    "hero": {
+        "title": "Tiszta energia, tiszta haszon",
+        "subtitle": "Üdvözlünk az ARCHLAND Kft. weboldalán!",
+        "description": "Több évtizedes tapasztalattal és szakmai elhivatottsággal azon dolgozunk, hogy modern, energiatakarékos és élhető otthonokat hozzunk létre. Célunk, hogy ügyfeleink számára ne csak lakást, hanem valódi otthont építsünk — megbízható minőségben, átlátható feltételekkel.",
+        "cta": "Tovább",
+        "cta2": "Üzenjen nekünk"
+    },
+    "about": {
+        "title": "A jövő otthonait építjük, múltból merített tapasztalattal",
+        "mission": {
+            "title": "Az ARCHLAND küldetése",
+            "description": "Az ARCHLAND Kft. fő tevékenysége a modern társasházi lakások építése és értékesítése. Ingatlanfejlesztőként célunk, hogy korszerű, energiahatékony, esztétikailag igényes és élhető otthonokat hozzunk létre a jövő generációi számára is. Projektjeink során kiemelt figyelmet fordítunk a környezettudatos megoldásokra, a korszerű technológiák alkalmazására és a minőségi kivitelezésre.",
+            "commitment": "2009-ben elvégeztük a Passzívház Egyetem tanfolyamát, és elköteleztük magunkat az energiahatékony, környezetbarát építészet mellett. 2010-től több lakóépületet is építettünk, melyek földhővel, napenergiával működnek, és energetikai besorolásuk eléri a legmagasabb AA++ kategóriát: < 40% minimális energiaigény.",
+            "motto": "Mottónk: „Tiszta energia, tiszta haszon\""
+        },
+        "history": {
+            "title": "Történetünk",
+            "content": "Gyökereink az 1970-es évekre nyúlnak vissza, amikor édesapám megalapította első építőipari vállalkozását. Akkoriban még kisiparosként dolgozott, ma már úgy mondjuk: vállalkozó lett.\n\n1996 végén létrehoztuk első társas vállalkozásunkat, a PUSIT Kft.-t. Kezdetben néhány alkalmazottal és kevés eszközzel kisebb munkákra és felújításokra vállalkoztunk – elsődleges célunk a tapasztalatszerzés volt.\n\n2002-ben Debrecenben a Bem téri társasház szerkezetépítése volt az első komolyabb projektünk, majd ugyanebben az évben megépítettük a debreceni élményfürdő fejépületének szerkezetét is.\n\n2003-tól sorra építettük a társasházakat: Derecskén 12, majd 20 lakásos házakat, később Berettyóújfaluban fővállalkozásban egy 27 lakóegységes épületet. Az évek során tudásunk és tapasztalatunk egyre bővült, vállalkozásunk stabil alapokra épült: saját telephely, iroda, géppark, eszközök és kiváló szakemberek segítik a munkát.\n\n2007-ben megalapítottuk az ARCHLAND Kft.-t, új céllal: a felhalmozott tapasztalatokat saját tervezésű és kivitelezésű társasházak építésében kamatoztatni."
+        }
+    },
+    "hero2": {
+        "title": "Építsen velünk biztos alapokra!",
+        "subtitle": "Generálkivitelezés és társasházépítés – tapasztalattal, minőségben"
+    },
+    "articles": {
+        "energyEfficient": {
+            "title": "AA++ MINŐSÍTÉSŰ OTTHON",
+            "subtitle": "KOMFORTOS, ZAJMENTES ÉS ZÖLD",
+            "content": "A világ számos pontján egyre nagyobb figyelmet kap az energiatakarékos épületek tervezése és kivitelezése. Ezek az épületek különböző kategóriákba sorolhatók az energia-megtakarítás mértéke szerint.\n\nCsökkentett energiafelhasználású, vagy úgynevezett passzívház építése nemcsak korszerű műszaki megoldás, hanem tudatos lépés a környezetvédelem irányába is. Ilyenkor alacsony energiaigényű, AA++ energiaosztályú épületet hozunk létre, amely környezetbarát anyagokból készül, és megújuló energiaforrások – például nap- és geotermikus energia – segítségével üzemel. Ezzel jelentősen csökkenthető a károsanyag-kibocsátás is.\n\nAz ilyen épületek nemcsak energiahatékonyak, hanem komfortos lakókörnyezetet is biztosítanak. A modern szerkezeti kialakításnak köszönhetően a hangszigetelés jóval hatékonyabb, így különösen városi környezetben nyújtanak csendes, nyugodt életteret.\n\nA tervezett lakóházaink energiaigénye csupán az adott kategóriára jellemző átlagos felhasználás 20%-át teszi ki. Az ehhez szükséges energiát elsősorban geotermikus és napenergia felhasználásával biztosítjuk."
+        },
+        "projects": {
+            "title": "Büszkén mutatjuk be legfrissebb megvalósításainkat – tekintsd meg munkáinkat!"
+        }
+    },
+    "contact": {
+        "title": "Üzenet küldése",
+        "subtitle": "A közös munka egy jó beszélgetéssel kezdődik — várjuk jelentkezésed!",
+        "form": {
+            "name": "Név",
+            "email": "E-mail cím",
+            "phone": "Telefonszám",
+            "message": "Üzenet",
+            "send": "Küldés"
+        }
+    },
+    "footer": {
+        "company": "Archland Kft.",
+        "description": "Társasházi lakások tervezése, kivitelezése és értékesítése Hajdúszoboszlón és környékén.",
+        "sitemap": "Sitemap",
+        "socials": "Közösségi média"
+    },
+    "projects": {
+        "homewell": {
+            "title": "HOMEWELL",
+            "description": "A tervezett 8 lakásos társasház Hajdúszoboszlón, a Szurmai utcában, a fürdőnegyedben épül fel, a strand közvetlen közelében.",
+            "fullDescription": "A tervezett 8 lakásos társasház Hajdúszoboszlón, a Szurmai utcában, a fürdőnegyedben épül fel, a strand közvetlen közelében, teljes közműellátottsággal rendelkező telken, lakóépületekkel beépített, rendezett környezetben.\n\nAz épület földszintjén egy üzlethelyiség, egy tágas, több helyiségből álló lakás, nyolc önálló, zárt gépkocsi tároló, gépészeti helyiség, valamint két lépcsőház és egy személyfelvonó kap helyet. Az első emeleten öt, a második emeleten további két lakás kerül kialakításra.\n\nAz épület fűtését és hűtését korszerű hőszivattyúk biztosítják, amelyek a földszinti gépészeti helyiségben kerülnek elhelyezésre. A megfelelő légcseréről és a kellemes beltéri klímáról hővisszanyerős légkezelő rendszer gondoskodik.",
+            "status": "99% ELADVA",
+            "statusMessage": "Már csak egyetlen lakás maradt ebben a modern társasházban! Nézd meg az alaprajzot itt, és csapj le rá, amíg még elérhető!",
+            "images": {
+                "cardAlt": "HOMEWELL társasház 3D látványterv",
+                "gallery": {
+                    "exterior": "HOMEWELL társasház 3D látványterv",
+                    "construction": "HOMEWELL építkezés",
+                    "interior": "HOMEWELL belső tér",
+                    "floorplan": "HOMEWELL lakás alaprajz"
+                }
+            },
+            "features": {
+                "geothermal": "Geotermikus fűtés",
+                "solar": "Napelemes rendszer",
+                "energyClass": "AA++ energiaosztály"
+            },
+            "stats": {
+                "energyRating": "AA++"
+            }
+        },
+        "casaAquila": {
+            "title": "Casa Aquila",
+            "description": "A Casa Aquila társasház Hajdúszoboszló központi részén, a Luther utcában épül meg, rendezett, lakóövezeti környezetben.",
+            "fullDescription": "A Casa Aquila társasház Hajdúszoboszló központi részén, a Luther utcában épül meg, rendezett, lakóövezeti környezetben, a város frekventált pontjai közvetlen közelében. A 429 m²-es építési telken egy korszerű, nyolc lakásos, teljes közműellátottsággal rendelkező, energetikailag példaértékű, környezettudatos lakóépület valósul meg.\n\nAz épület tervezésénél és kivitelezésénél a fenntarthatóság, a minimális energiafelhasználás és a korszerű építőipari technológia volt a fő szempont. A Casa Aquila épületének fűtését és hűtését hat darab, egyenként 100 méter mély geotermikus talajszonda látja el, amelyek egy földszinten elhelyezett hőszivattyús rendszerhez csatlakoznak.",
+            "images": {
+                "cardAlt": "Casa Aquila társasház homlokzat",
+                "gallery": {
+                    "exterior": "Casa Aquila homlokzat",
+                    "detail": "Casa Aquila építészeti részlet",
+                    "construction": "Casa Aquila építés közben",
+                    "structure": "Casa Aquila szerkezet"
+                }
+            },
+            "features": {
+                "zeroEnergy": "Nullenergiás kialakítás",
+                "geothermal": "Geotermikus rendszer",
+                "ledLighting": "LED világítás"
+            },
+            "stats": {
+                "energyRating": "AA++"
+            }
+        },
+        "goldResidence": {
+            "title": "Gold Residence",
+            "description": "A GOLD RESIDENCE egy korszerű, nullenergiás társasház Hajdúszoboszlón, az Arany János utcában, a Hungarospa fürdőkomplexum közvetlen közelében.",
+            "images": {
+                "cardAlt": "Gold Residence utcai bejárat",
+                "gallery": {
+                    "exterior": "Gold Residence utcai homlokzat",
+                    "garden": "Gold Residence kert és terasz"
+                }
+            },
+            "features": {
+                "zeroEnergy": "Nullenergiás épület",
+                "twentyFlats": "20 lakás",
+                "closeToSpa": "Hungarospa közvetlen közelében"
+            },
+            "stats": {
+                "energyRating": "AA++"
+            }
+        },
+        "oasisResidence": {
+            "title": "Oasis Residence",
+            "description": "Az Oasis Residence egy modern szemléletű, 30 lakásos társasház Hajdúszoboszló szívében, a fürdőnegyedben, a Hungarospa gyógyfürdőtől mindössze 200 méterre.",
+            "images": {
+                "cardAlt": "Oasis Residence esti megvilágítás",
+                "gallery": {
+                    "exterior": "Oasis Residence esti megvilágítás",
+                    "interior": "Oasis Residence belső tér",
+                    "courtyard": "Oasis Residence udvar",
+                    "pool": "Oasis Residence medence"
+                }
+            },
+            "features": {
+                "thirtyFlats": "30 lakás",
+                "pool": "Medence",
+                "closeToSpa": "Fürdő közelében"
+            },
+            "stats": {
+                "energyRating": "AA++"
+            }
+        },
+        "hogyes16": {
+            "title": "Hőgyes 16",
+            "description": "A Hőgyes 16. társasház Hajdúszoboszló szívében, a Hőgyes utca és a Kossuth utca találkozásánál épült meg.",
+            "images": {
+                "cardAlt": "Hőgyes 16 társasház",
+                "gallery": {
+                    "exterior": "Hőgyes 16 társasház",
+                    "detail": "Hőgyes 16 részlet",
+                    "facade": "Hőgyes 16 homlokzat"
+                }
+            },
+            "features": {
+                "tenFlats": "10 lakás",
+                "cityCenter": "Városközponti elhelyezkedés",
+                "heatPump": "Hőszivattyús rendszer"
+            },
+            "stats": {
+                "energyRating": "AA++"
+            }
+        },
+        "actions": {
+            "viewDetails": "Részletek"
+        }
+    },
+    "header": {
+        "companyName": "Archland Kft.",
+        "logoAlt": "Archland Kft. logo",
+        "logoAriaLabel": "Főoldal - Archland Kft.",
+        "languages": {
+            "hu": {
+                "label": "HU",
+                "ariaLabel": "Váltás magyar nyelvre"
+            },
+            "en": {
+                "label": "EN",
+                "ariaLabel": "Váltás angol nyelvre"
+            }
+        },
+        "navigation": {
+            "ariaLabel": "Fő navigáció",
+            "mobileMenuAriaLabel": "Navigációs menü megnyitása",
+            "home": "Főoldal",
+            "about": "Rólunk",
+            "projects": "Projektek",
+            "contact": "Kapcsolat"
+        }
+    },
+    "carousel": {
+        "ariaLabel": "Képgaléria",
+        "close": "Képgaléria bezárása",
+        "previous": "Előző kép",
+        "next": "Következő kép",
+        "counter": "{{current}} / {{total}}",
+        "thumbnail": "Ugrás a(z) {{index}}. képre"
+    }
+}
