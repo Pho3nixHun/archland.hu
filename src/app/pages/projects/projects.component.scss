@@ -1,0 +1,93 @@
+@use '../../../assets/styles/tokens/semantic' as semantic;
+
+.projects-page {
+    min-height: 100vh;
+}
+
+/* Page Header */
+.projects-header {
+    background: linear-gradient(
+        135deg,
+        semantic.$surface-brand-subtle 0%,
+        semantic.$surface-elevated 100%
+    );
+    padding: semantic.$layout-gap-2xl semantic.$layout-gap-lg
+        semantic.$layout-gap-xl;
+    text-align: center;
+}
+
+.projects-header__title {
+    color: semantic.$text-primary;
+    font-size: semantic.$text-display;
+    font-weight: 700;
+    margin: 0 0 semantic.$component-gap-lg 0;
+
+    @media (max-width: 768px) {
+        font-size: semantic.$text-heading-1;
+    }
+}
+
+.projects-header__subtitle {
+    color: semantic.$text-secondary;
+    font-size: semantic.$text-heading-3;
+    font-weight: 500;
+    margin: 0;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+
+    @media (max-width: 768px) {
+        font-size: semantic.$text-heading-4;
+    }
+}
+
+/* Projects Sections */
+.projects-section {
+    padding: semantic.$layout-gap-2xl semantic.$layout-gap-lg;
+    background: semantic.$surface-primary;
+
+    &--completed {
+        background: semantic.$surface-elevated;
+    }
+}
+
+.projects-section__title {
+    color: semantic.$text-primary;
+    font-size: semantic.$text-heading-1;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: semantic.$layout-gap-xl;
+
+    @media (max-width: 768px) {
+        font-size: semantic.$text-heading-2;
+        margin-bottom: semantic.$layout-gap-lg;
+    }
+}
+
+.projects-section__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: semantic.$layout-gap-lg;
+    max-width: 1400px;
+    margin: 0 auto;
+
+    @media (max-width: 768px) {
+        grid-template-columns: 1fr;
+        gap: semantic.$layout-gap-md;
+    }
+
+    @media (min-width: 1200px) {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .projects-header {
+        padding: semantic.$layout-gap-xl semantic.$layout-gap-md
+            semantic.$layout-gap-lg;
+    }
+
+    .projects-section {
+        padding: semantic.$layout-gap-xl semantic.$layout-gap-md;
+    }
+}

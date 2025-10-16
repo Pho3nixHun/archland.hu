@@ -1,0 +1,90 @@
+@use '../../../../assets/styles/tokens/semantic' as semantic;
+@use '../../../../assets/styles/tokens/components' as components;
+
+.about-section {
+    background: components.$about-background;
+    padding: components.$about-padding-y components.$about-padding-x;
+}
+
+.about-section__title {
+    color: components.$about-title-color;
+    font-size: semantic.$text-heading-1;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: semantic.$layout-gap-xl;
+
+    @media (max-width: 768px) {
+        font-size: semantic.$text-heading-2;
+        margin-bottom: semantic.$layout-gap-lg;
+    }
+}
+
+.about-section__content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: semantic.$layout-gap-xl;
+    max-width: 1000px;
+    margin: 0 auto;
+
+    @media (min-width: 768px) {
+        grid-template-columns: 1fr 1fr;
+        gap: semantic.$layout-gap-2xl;
+    }
+}
+
+.about-section__mission,
+.about-section__history {
+    display: flex;
+    flex-direction: column;
+    gap: components.$about-gap;
+}
+
+.about-section__mission-title,
+.about-section__history-title {
+    color: semantic.$text-brand;
+    font-size: semantic.$text-heading-3;
+    font-weight: 600;
+    margin: 0;
+}
+
+.about-section__mission-description,
+.about-section__mission-commitment {
+    color: components.$about-text-color;
+    font-size: semantic.$text-body;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.about-section__motto {
+    background: semantic.$surface-brand-subtle;
+    border-left: 4px solid semantic.$text-brand;
+    padding: semantic.$component-gap-lg;
+    margin: semantic.$component-gap-lg 0;
+    font-style: italic;
+    font-weight: 600;
+    color: semantic.$text-brand;
+    border-radius: semantic.$border-radius-md;
+}
+
+.about-section__history-content {
+    color: components.$about-text-color;
+    font-size: semantic.$text-body;
+    line-height: 1.6;
+    white-space: pre-line;
+}
+
+@media (max-width: 768px) {
+    .about-section {
+        padding: semantic.$layout-gap-lg semantic.$layout-gap-md;
+    }
+
+    .about-section__mission-title,
+    .about-section__history-title {
+        font-size: semantic.$text-heading-4;
+    }
+
+    .about-section__motto {
+        padding: semantic.$component-gap-md;
+        margin: semantic.$component-gap-md 0;
+    }
+}

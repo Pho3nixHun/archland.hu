@@ -1,0 +1,158 @@
+@use '../../../../assets/styles/tokens/semantic' as semantic;
+@use '../../../../assets/styles/tokens/components' as components;
+
+.contact-form {
+    background: semantic.$surface-elevated;
+    padding: semantic.$layout-gap-xl semantic.$layout-gap-lg;
+}
+
+.contact-form__header {
+    text-align: center;
+    margin-bottom: semantic.$layout-gap-xl;
+}
+
+.contact-form__title {
+    color: semantic.$text-primary;
+    font-size: semantic.$text-heading-1;
+    font-weight: 700;
+    margin: 0 0 semantic.$component-gap-lg 0;
+
+    @media (max-width: 768px) {
+        font-size: semantic.$text-heading-2;
+    }
+}
+
+.contact-form__subtitle {
+    color: semantic.$text-secondary;
+    font-size: semantic.$text-body-lg;
+    margin: 0;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+
+    @media (max-width: 768px) {
+        font-size: semantic.$text-body;
+    }
+}
+
+.contact-form__form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: semantic.$component-gap-xl;
+}
+
+.contact-form__field {
+    display: flex;
+    flex-direction: column;
+    gap: semantic.$component-gap-sm;
+}
+
+.contact-form__label {
+    color: components.$form-label-color;
+    font-size: semantic.$text-body;
+    font-weight: 600;
+    margin: 0;
+}
+
+.contact-form__input,
+.contact-form__textarea {
+    background: components.$form-input-background;
+    border: 1px solid components.$form-input-border;
+    border-radius: components.$form-input-border-radius;
+    padding: components.$form-input-padding;
+    font-size: semantic.$text-body;
+    color: components.$form-input-text;
+    transition: all 0.2s ease;
+
+    &::placeholder {
+        color: components.$form-input-placeholder;
+    }
+
+    &:focus {
+        outline: none;
+        border-color: components.$form-input-border-focus;
+        box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+    }
+
+    &--error {
+        border-color: components.$form-error-color;
+        box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.1);
+    }
+}
+
+.contact-form__textarea {
+    resize: vertical;
+    min-height: 120px;
+    font-family: inherit;
+}
+
+.contact-form__error {
+    color: components.$form-error-color;
+    font-size: semantic.$text-body-sm;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: semantic.$component-gap-xs;
+
+    &::before {
+        content: '⚠';
+        font-size: semantic.$text-body;
+    }
+}
+
+.contact-form__submit {
+    background: components.$button-background-primary;
+    color: components.$button-text-primary;
+    border: none;
+    border-radius: components.$button-border-radius;
+    padding: semantic.$component-gap-lg semantic.$component-gap-xl;
+    font-size: semantic.$text-body-lg;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    margin-top: semantic.$component-gap-lg;
+
+    &:hover:not(:disabled) {
+        background: components.$button-background-primary-hover;
+    }
+
+    &:active:not(:disabled) {
+        background: components.$button-background-primary-active;
+    }
+
+    &:focus {
+        outline: 2px solid semantic.$border-focus;
+        outline-offset: 2px;
+    }
+
+    &:disabled {
+        opacity: 0.6;
+        cursor: not-allowed;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact-form {
+        padding: semantic.$layout-gap-lg semantic.$layout-gap-md;
+    }
+
+    .contact-form__header {
+        margin-bottom: semantic.$layout-gap-lg;
+    }
+
+    .contact-form__form {
+        gap: semantic.$component-gap-lg;
+    }
+
+    .contact-form__input,
+    .contact-form__textarea {
+        padding: semantic.$component-gap-md;
+    }
+
+    .contact-form__submit {
+        padding: semantic.$component-gap-md semantic.$component-gap-lg;
+        font-size: semantic.$text-body;
+    }
+}

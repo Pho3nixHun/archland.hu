@@ -1,0 +1,195 @@
+{
+    "hero": {
+        "title": "Clean Energy, Clean Profit",
+        "subtitle": "Welcome to ARCHLAND Ltd. website!",
+        "description": "With decades of experience and professional dedication, we work to create modern, energy-efficient and liveable homes. Our goal is to build not just apartments, but real homes for our clients — with reliable quality and transparent conditions.",
+        "cta": "Learn More",
+        "cta2": "Contact Us"
+    },
+    "about": {
+        "title": "Building the homes of the future with experience drawn from the past",
+        "mission": {
+            "title": "ARCHLAND's Mission",
+            "description": "ARCHLAND Ltd.'s main activity is the construction and sale of modern residential apartments. As a real estate developer, our goal is to create modern, energy-efficient, aesthetically pleasing and liveable homes for future generations as well. During our projects, we pay special attention to environmentally conscious solutions, the application of modern technologies and quality construction.",
+            "commitment": "In 2009, we completed the Passive House University course and committed ourselves to energy-efficient, environmentally friendly architecture. Since 2010, we have built several residential buildings that operate with geothermal and solar energy, and their energy rating reaches the highest AA++ category: < 40% minimum energy requirement.",
+            "motto": "Our motto: \"Clean energy, clean profit\""
+        },
+        "history": {
+            "title": "Our History",
+            "content": "Our roots go back to the 1970s, when my father founded his first construction business. At that time he still worked as a craftsman, today we would say: he became an entrepreneur.\n\nAt the end of 1996, we created our first joint venture, PUSIT Ltd. Initially, with a few employees and few tools, we undertook smaller jobs and renovations - our primary goal was to gain experience.\n\nIn 2002, the structural construction of the Bem Square apartment building in Debrecen was our first major project, and in the same year we also built the structure of the main building of the Debrecen adventure bath.\n\nFrom 2003, we built apartment buildings one after another: in Derecske 12, then 20-apartment houses, later in Berettyóújfalu as a main contractor a 27-unit building. Over the years, our knowledge and experience expanded, our business was built on solid foundations: our own site, office, machinery, equipment and excellent professionals help the work.\n\nIn 2007, we founded ARCHLAND Ltd. with a new goal: to capitalize on the accumulated experience in building our own designed and constructed apartment buildings."
+        }
+    },
+    "hero2": {
+        "title": "Build with us on solid foundations!",
+        "subtitle": "General contracting and apartment building construction – with experience, in quality"
+    },
+    "articles": {
+        "energyEfficient": {
+            "title": "AA++ RATED HOME",
+            "subtitle": "COMFORTABLE, QUIET AND GREEN",
+            "content": "In many parts of the world, the design and construction of energy-efficient buildings is receiving increasing attention. These buildings can be categorized according to the degree of energy savings.\n\nBuilding reduced energy consumption, or so-called passive houses, is not only a modern technical solution, but also a conscious step towards environmental protection. In this case, we create a low-energy, AA++ energy class building made from environmentally friendly materials and operating with renewable energy sources - for example, solar and geothermal energy. This can also significantly reduce pollutant emissions.\n\nSuch buildings are not only energy efficient, but also provide a comfortable living environment. Thanks to the modern structural design, sound insulation is much more effective, thus providing quiet, peaceful living space, especially in urban environments.\n\nThe energy requirement of our planned residential buildings is only 20% of the average consumption typical for the given category. The energy required for this is provided primarily by using geothermal and solar energy."
+        },
+        "projects": {
+            "title": "We proudly present our latest implementations – see our work!"
+        }
+    },
+    "contact": {
+        "title": "Send a Message",
+        "subtitle": "Joint work starts with a good conversation — we look forward to hearing from you!",
+        "form": {
+            "name": "Name",
+            "email": "Email Address",
+            "phone": "Phone Number",
+            "message": "Message",
+            "send": "Send"
+        }
+    },
+    "footer": {
+        "company": "Archland Ltd.",
+        "description": "Design, construction and sale of residential apartments in Hajdúszoboszló and the surrounding area.",
+        "sitemap": "Sitemap",
+        "socials": "Social Media"
+    },
+    "projects": {
+        "homewell": {
+            "title": "HOMEWELL",
+            "description": "The planned 8-apartment building in Hajdúszoboszló, on Szurmai Street, in the spa district, will be built in the immediate vicinity of the beach.",
+            "fullDescription": "The planned 8-apartment HOMEWELL building will be constructed in Hajdúszoboszló's spa district on Szurmai Street, on a fully serviced plot in a well-kept residential area, directly next to the bath complex.\n\nThe ground floor will include a shop, a spacious multi-room apartment, eight private garages, a mechanical room, two staircases and an elevator. Five apartments will be created on the first floor and another two on the second floor.\n\nHeating and cooling will be provided by modern heat pumps located in the ground-floor plant room, while a heat recovery ventilation system will ensure fresh air and a comfortable indoor climate.",
+            "status": "99% SOLD",
+            "statusMessage": "Only one apartment left in this modern apartment building! Check out the floor plan here and grab it while it's still available!",
+            "images": {
+                "cardAlt": "HOMEWELL 3D exterior rendering",
+                "gallery": {
+                    "exterior": "HOMEWELL 3D exterior rendering",
+                    "construction": "HOMEWELL construction progress",
+                    "interior": "HOMEWELL interior view",
+                    "floorplan": "HOMEWELL apartment floor plan"
+                }
+            },
+            "features": {
+                "geothermal": "Geothermal heating",
+                "solar": "Solar panel system",
+                "energyClass": "AA++ energy class"
+            },
+            "stats": {
+                "energyRating": "AA++"
+            }
+        },
+        "casaAquila": {
+            "title": "Casa Aquila",
+            "description": "The Casa Aquila apartment building will be built in the central part of Hajdúszoboszló, on Luther Street, in an orderly residential area.",
+            "fullDescription": "Casa Aquila will rise in the heart of Hajdúszoboszló, on Luther Street, in a tidy residential neighbourhood close to the city's key attractions. On the 429 m² building plot a modern, eight-apartment, fully serviced and energy-conscious residential building will be realised.\n\nSustainability, minimal energy consumption and state-of-the-art construction technology were the guiding principles during planning and execution. Heating and cooling are provided by six 100-metre-deep geothermal probes connected to a ground-floor heat pump system.",
+            "images": {
+                "cardAlt": "Casa Aquila apartment exterior",
+                "gallery": {
+                    "exterior": "Casa Aquila exterior view",
+                    "detail": "Casa Aquila architectural detail",
+                    "construction": "Casa Aquila construction progress",
+                    "structure": "Casa Aquila building structure"
+                }
+            },
+            "features": {
+                "zeroEnergy": "Net-zero energy concept",
+                "geothermal": "Geothermal system",
+                "ledLighting": "LED lighting throughout"
+            },
+            "stats": {
+                "energyRating": "AA++"
+            }
+        },
+        "goldResidence": {
+            "title": "Gold Residence",
+            "description": "GOLD RESIDENCE is a modern, zero-energy apartment building in Hajdúszoboszló, on Arany János Street, in the immediate vicinity of the Hungarospa spa complex.",
+            "images": {
+                "cardAlt": "Gold Residence main entrance",
+                "gallery": {
+                    "exterior": "Gold Residence street facade",
+                    "garden": "Gold Residence garden and terrace"
+                }
+            },
+            "features": {
+                "zeroEnergy": "Net-zero energy building",
+                "twentyFlats": "20 apartments",
+                "closeToSpa": "Steps from Hungarospa"
+            },
+            "stats": {
+                "energyRating": "AA++"
+            }
+        },
+        "oasisResidence": {
+            "title": "Oasis Residence",
+            "description": "Oasis Residence is a modern-minded, 30-apartment building in the heart of Hajdúszoboszló, in the spa district, only 200 meters from the Hungarospa spa.",
+            "images": {
+                "cardAlt": "Oasis Residence illuminated exterior",
+                "gallery": {
+                    "exterior": "Oasis Residence evening exterior",
+                    "interior": "Oasis Residence interior view",
+                    "courtyard": "Oasis Residence courtyard",
+                    "pool": "Oasis Residence pool area"
+                }
+            },
+            "features": {
+                "thirtyFlats": "30 apartments",
+                "pool": "Swimming pool",
+                "closeToSpa": "Near the spa complex"
+            },
+            "stats": {
+                "energyRating": "AA++"
+            }
+        },
+        "hogyes16": {
+            "title": "Hőgyes 16",
+            "description": "The Hőgyes 16 apartment building was built in the heart of Hajdúszoboszló, at the intersection of Hőgyes Street and Kossuth Street.",
+            "images": {
+                "cardAlt": "Hőgyes 16 apartment building",
+                "gallery": {
+                    "exterior": "Hőgyes 16 exterior view",
+                    "detail": "Hőgyes 16 architectural detail",
+                    "facade": "Hőgyes 16 facade"
+                }
+            },
+            "features": {
+                "tenFlats": "10 apartments",
+                "cityCenter": "City center location",
+                "heatPump": "Efficient heat pump"
+            },
+            "stats": {
+                "energyRating": "AA++"
+            }
+        },
+        "actions": {
+            "viewDetails": "View details"
+        }
+    },
+    "header": {
+        "companyName": "Archland Ltd.",
+        "logoAlt": "Archland Ltd. logo",
+        "logoAriaLabel": "Home - Archland Ltd.",
+        "languages": {
+            "hu": {
+                "label": "HU",
+                "ariaLabel": "Switch to Hungarian"
+            },
+            "en": {
+                "label": "EN",
+                "ariaLabel": "Switch to English"
+            }
+        },
+        "navigation": {
+            "ariaLabel": "Main navigation",
+            "mobileMenuAriaLabel": "Open navigation menu",
+            "home": "Home",
+            "about": "About",
+            "projects": "Projects",
+            "contact": "Contact"
+        }
+    },
+    "carousel": {
+        "ariaLabel": "Image gallery",
+        "close": "Close image gallery",
+        "previous": "Previous image",
+        "next": "Next image",
+        "counter": "{{current}} / {{total}}",
+        "thumbnail": "Go to image {{index}}"
+    }
+}

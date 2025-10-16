@@ -1,0 +1,82 @@
+// Component Tokens (Tier-3): Component-scoped tokens referencing semantic tokens
+@use 'semantic' as semantic;
+
+// Button Component Tokens
+$button-background-primary: semantic.$interactive-primary;
+$button-background-primary-hover: semantic.$interactive-primary-hover;
+$button-background-primary-active: semantic.$interactive-primary-active;
+$button-background-secondary: semantic.$interactive-secondary;
+$button-background-secondary-hover: semantic.$interactive-secondary-hover;
+$button-background-secondary-active: semantic.$interactive-secondary-active;
+$button-text-primary: semantic.$text-inverse;
+$button-text-secondary: semantic.$text-primary;
+$button-border-radius: semantic.$border-radius-md;
+$button-padding-x: semantic.$component-gap-lg;
+$button-padding-y: semantic.$component-gap-md;
+$button-shadow: semantic.$shadow-subtle;
+
+// Card Component Tokens
+$card-background: semantic.$surface-elevated;
+$card-border: semantic.$border-subtle;
+$card-border-radius: semantic.$border-radius-lg;
+$card-padding: semantic.$component-gap-xl;
+$card-gap: semantic.$component-gap-lg;
+$card-shadow: semantic.$shadow-default;
+$card-shadow-hover: semantic.$shadow-elevated;
+
+// Hero Component Tokens
+$hero-background: semantic.$surface-brand-subtle;
+$hero-title-color: semantic.$text-primary;
+$hero-subtitle-color: semantic.$text-secondary;
+$hero-padding-y: semantic.$layout-gap-2xl;
+$hero-padding-x: semantic.$layout-gap-lg;
+$hero-gap: semantic.$layout-gap-md;
+
+// Navigation Component Tokens
+$navigation-background: semantic.$surface-elevated;
+$navigation-border: semantic.$border-subtle;
+$navigation-link-color: semantic.$text-primary;
+$navigation-link-hover: semantic.$text-brand;
+$navigation-padding: semantic.$component-gap-md;
+$navigation-gap: semantic.$component-gap-lg;
+$navigation-shadow: semantic.$shadow-subtle;
+
+// Footer Component Tokens
+$footer-background: semantic.$text-primary;
+$footer-text-color: semantic.$text-inverse;
+$footer-link-color: semantic.$text-inverse;
+$footer-link-hover: semantic.$interactive-primary;
+$footer-padding-y: semantic.$layout-gap-xl;
+$footer-padding-x: semantic.$layout-gap-lg;
+$footer-gap: semantic.$layout-gap-md;
+
+// Form Component Tokens
+$form-input-background: semantic.$surface-elevated;
+$form-input-border: semantic.$border-default;
+$form-input-border-focus: semantic.$border-focus;
+$form-input-text: semantic.$text-primary;
+$form-input-placeholder: semantic.$text-subtle;
+$form-input-padding: semantic.$component-gap-md;
+$form-input-border-radius: semantic.$border-radius-md;
+$form-label-color: semantic.$text-secondary;
+$form-error-color: semantic.$status-error;
+
+// Property Showcase Component Tokens
+$property-card-background: semantic.$surface-elevated;
+$property-card-border: semantic.$border-subtle;
+$property-card-border-radius: semantic.$border-radius-lg;
+$property-card-padding: semantic.$component-gap-lg;
+$property-card-gap: semantic.$component-gap-md;
+$property-card-shadow: semantic.$shadow-default;
+$property-card-shadow-hover: semantic.$shadow-elevated;
+$property-title-color: semantic.$text-primary;
+$property-description-color: semantic.$text-secondary;
+$property-price-color: semantic.$text-brand;
+
+// About Section Component Tokens
+$about-background: semantic.$surface-primary;
+$about-title-color: semantic.$text-primary;
+$about-text-color: semantic.$text-secondary;
+$about-padding-y: semantic.$layout-gap-xl;
+$about-padding-x: semantic.$layout-gap-lg;
+$about-gap: semantic.$layout-gap-md;

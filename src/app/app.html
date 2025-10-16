@@ -1,0 +1,18 @@
+<div class="app">
+    <!-- Header Navigation -->
+    <app-header
+        [vm]="headerVM()"
+        [isMobileMenuOpen]="isMobileMenuOpen()"
+        (mobileMenuToggle)="onMobileMenuToggle()"
+        (mobileMenuClose)="onMobileMenuClose()"
+        (languageSwitch)="onLanguageSwitch($event)"
+    />
+
+    <!-- Main Content Area -->
+    <main class="main">
+        <router-outlet />
+    </main>
+
+    <!-- Footer -->
+    <app-footer [vm]="footerVM()" />
+</div>

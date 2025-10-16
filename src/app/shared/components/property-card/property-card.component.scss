@@ -1,0 +1,152 @@
+@use '../../../../assets/styles/tokens/semantic' as semantic;
+@use '../../../../assets/styles/tokens/components' as components;
+
+.property-card {
+    background: components.$property-card-background;
+    border: 1px solid components.$property-card-border;
+    border-radius: components.$property-card-border-radius;
+    box-shadow: components.$property-card-shadow;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    height: 100%;
+
+    &:hover {
+        box-shadow: components.$property-card-shadow-hover;
+        transform: translateY(-2px);
+    }
+
+    &--featured {
+        border-color: semantic.$text-brand;
+        box-shadow: 0 4px 12px rgba(59, 130, 246, 0.15);
+
+        &:hover {
+            box-shadow: 0 8px 24px rgba(59, 130, 246, 0.25);
+        }
+    }
+
+    &--sold {
+        opacity: 0.8;
+
+        .property-card__status {
+            background: semantic.$status-success;
+        }
+    }
+}
+
+.property-card__content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.property-card__image-container {
+    position: relative;
+    aspect-ratio: 16 / 10;
+    overflow: hidden;
+}
+
+.property-card__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+
+    .property-card:hover & {
+        transform: scale(1.05);
+    }
+}
+
+.property-card__status {
+    position: absolute;
+    top: semantic.$component-gap-md;
+    right: semantic.$component-gap-md;
+    background: semantic.$status-warning;
+    color: white;
+    padding: semantic.$component-gap-xs semantic.$component-gap-sm;
+    border-radius: semantic.$border-radius-md;
+    font-size: semantic.$text-caption;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.property-card__info {
+    padding: components.$property-card-padding;
+    display: flex;
+    flex-direction: column;
+    gap: components.$property-card-gap;
+    flex: 1;
+}
+
+.property-card__title {
+    color: components.$property-title-color;
+    font-size: semantic.$text-heading-4;
+    font-weight: 600;
+    margin: 0;
+    line-height: 1.3;
+}
+
+.property-card__description {
+    color: components.$property-description-color;
+    font-size: semantic.$text-body;
+    line-height: 1.5;
+    margin: 0;
+    flex: 1;
+}
+
+.property-card__status-message {
+    background: semantic.$status-success-subtle;
+    border: 1px solid semantic.$status-success;
+    border-radius: semantic.$border-radius-md;
+    padding: semantic.$component-gap-md;
+    font-size: semantic.$text-body-sm;
+    color: semantic.$status-success;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.property-card__cta {
+    background: components.$button-background-primary;
+    color: components.$button-text-primary;
+    border: none;
+    border-radius: components.$button-border-radius;
+    padding: semantic.$component-gap-md semantic.$component-gap-lg;
+    font-size: semantic.$text-body;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    margin-top: auto;
+
+    &:hover {
+        background: components.$button-background-primary-hover;
+    }
+
+    &:active {
+        background: components.$button-background-primary-active;
+    }
+
+    &:focus {
+        outline: 2px solid semantic.$border-focus;
+        outline-offset: 2px;
+    }
+}
+
+@media (max-width: 768px) {
+    .property-card__info {
+        padding: semantic.$component-gap-lg;
+    }
+
+    .property-card__title {
+        font-size: semantic.$text-body-lg;
+    }
+
+    .property-card__description {
+        font-size: semantic.$text-body-sm;
+    }
+
+    .property-card__status {
+        top: semantic.$component-gap-sm;
+        right: semantic.$component-gap-sm;
+        padding: semantic.$component-gap-xs semantic.$component-gap-sm;
+    }
+}

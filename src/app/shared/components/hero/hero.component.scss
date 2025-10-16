@@ -1,0 +1,155 @@
+@use '../../../../assets/styles/tokens/semantic' as semantic;
+@use '../../../../assets/styles/tokens/components' as components;
+
+.hero {
+    background: components.$hero-background;
+    padding: components.$hero-padding-y components.$hero-padding-x;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+    &--secondary {
+        background: semantic.$surface-elevated;
+        min-height: 50vh;
+    }
+
+    &--with-image {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        color: white;
+        min-height: 80vh;
+
+        .hero__title,
+        .hero__subtitle {
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+
+        .hero__description {
+            color: rgba(255, 255, 255, 0.9);
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+        }
+    }
+}
+
+.hero__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(
+        135deg,
+        rgba(0, 0, 0, 0.4) 0%,
+        rgba(0, 0, 0, 0.2) 50%,
+        rgba(0, 0, 0, 0.4) 100%
+    );
+    z-index: 1;
+}
+
+.hero__content {
+    display: flex;
+    flex-direction: column;
+    gap: components.$hero-gap;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.hero__title {
+    color: components.$hero-title-color;
+    font-size: semantic.$text-display;
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 0;
+
+    @media (max-width: 768px) {
+        font-size: semantic.$text-heading-1;
+    }
+}
+
+.hero__subtitle {
+    color: components.$hero-subtitle-color;
+    font-size: semantic.$text-heading-2;
+    font-weight: 600;
+    margin: 0;
+
+    @media (max-width: 768px) {
+        font-size: semantic.$text-heading-3;
+    }
+}
+
+.hero__description {
+    color: semantic.$text-secondary;
+    font-size: semantic.$text-body-lg;
+    line-height: 1.6;
+    margin: 0;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+
+    @media (max-width: 768px) {
+        font-size: semantic.$text-body;
+    }
+}
+
+.hero__actions {
+    display: flex;
+    gap: semantic.$component-gap-lg;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: semantic.$layout-gap-md;
+}
+
+.hero__cta {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: components.$button-padding-y components.$button-padding-x;
+    border-radius: components.$button-border-radius;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    min-width: 140px;
+    box-shadow: components.$button-shadow;
+
+    &:focus {
+        outline: 2px solid semantic.$border-focus;
+        outline-offset: 2px;
+    }
+
+    &--primary {
+        background: components.$button-background-primary;
+        color: components.$button-text-primary;
+
+        &:hover {
+            background: components.$button-background-primary-hover;
+        }
+
+        &:active {
+            background: components.$button-background-primary-active;
+        }
+    }
+
+    &--secondary {
+        background: components.$button-background-secondary;
+        color: components.$button-text-secondary;
+        border: 1px solid semantic.$border-default;
+
+        &:hover {
+            background: components.$button-background-secondary-hover;
+        }
+
+        &:active {
+            background: components.$button-background-secondary-active;
+        }
+    }
+
+    @media (max-width: 576px) {
+        width: 100%;
+    }
+}
