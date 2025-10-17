@@ -161,7 +161,7 @@ const minLengthValidator = (minimumLength: number): ValidatorFn => {
                     <button
                         type="submit"
                         class="contact-form__submit"
-                        [disabled]="isSubmitting || contactForm.invalid"
+                        [disabled]="isSubmitting() || contactForm.invalid"
                         [attr.aria-label]="
                             t(vm().form.sendKey) + ' kapcsolati üzenet'
                         "
@@ -244,7 +244,7 @@ export class ContactFormComponent {
                 console.error('Failed to submit contact form');
             }
         } finally {
-            this.isSubmitting.set(true);
+            this.isSubmitting.set(false);
         }
     }
 }
