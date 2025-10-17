@@ -1,4 +1,11 @@
-import { Component, input, output, inject } from '@angular/core';
+import {
+    Component,
+    input,
+    output,
+    inject,
+    HostListener,
+    signal,
+} from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {
     FormBuilder,
@@ -7,6 +14,7 @@ import {
     Validators,
 } from '@angular/forms';
 import { TranslocoDirective } from '@jsverse/transloco';
+import { environment } from '../../../../environments/environment';
 
 export interface IContactFormVM {
     readonly titleKey: string;
@@ -177,6 +185,7 @@ const minLengthValidator = (minimumLength: number): ValidatorFn => {
 export class ContactFormComponent {
     vm = input.required<IContactFormVM>();
     formSubmit = output<IContactFormData>();
+    protected readonly isSubmitting = signal(false);
 
     private readonly formBuilder = inject(FormBuilder);
 
@@ -207,4 +216,44 @@ export class ContactFormComponent {
             this.formSubmit.emit(formValue);
         }
     };
+
+    @HostListener('formSubmit', ['$event'])
+    protected async onSubmitEvent(formValue: {
+        name: string;
+        email: string;
+        phone: string;
+        message: string;
+    }): Promise<void> {
+        console.log('Contact Form Submitted:', formValue);
+        this.isSubmitting.set(true);
+        const accessKey: string = environment.contactFormAccessKey;
+        try {
+            if (!accessKey) {
+                console.warn(
+                    'Contact form access key is not configured. Submission aborted.'
+                );
+                return;
+            }
+
+            const response = await fetch('https://api.web3forms.com/submit', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    Accept: 'application/json',
+                },
+                body: JSON.stringify({
+                    access_key: accessKey,
+                    ...formValue,
+                }),
+            });
+            const result = (await response.json()) as { success: boolean };
+            if (result.success) {
+                this.contactForm.reset();
+            } else {
+                console.error('Failed to submit contact form');
+            }
+        } finally {
+            this.isSubmitting.set(true);
+        }
+    }
 }

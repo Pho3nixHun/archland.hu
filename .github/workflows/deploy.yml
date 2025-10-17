@@ -33,6 +33,8 @@ jobs:
 
       - name: Build Angular app for GitHub Pages
         run: npm run build -- --configuration production
+        env:
+          NG_APP_CONTACT_FORM_ACCESS_KEY: ${{ secrets.WEB3FORMS_ACCESS_KEY }}
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
