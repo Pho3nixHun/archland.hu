@@ -1,11 +1,4 @@
-import {
-    Component,
-    input,
-    output,
-    inject,
-    HostListener,
-    signal,
-} from '@angular/core';
+import { Component, input, output, inject, signal } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {
     FormBuilder,
@@ -26,7 +19,6 @@ export interface IContactFormVM {
         readonly messageKey: string;
         readonly sendKey: string;
     };
-    readonly loading: boolean;
 }
 
 export interface IContactFormData {
@@ -169,12 +161,12 @@ const minLengthValidator = (minimumLength: number): ValidatorFn => {
                     <button
                         type="submit"
                         class="contact-form__submit"
-                        [disabled]="vm().loading || contactForm.invalid"
+                        [disabled]="isSubmitting || contactForm.invalid"
                         [attr.aria-label]="
                             t(vm().form.sendKey) + ' kapcsolati üzenet'
                         "
                     >
-                        {{ vm().loading ? 'Küldés...' : t(vm().form.sendKey) }}
+                        {{ t(vm().form.sendKey) }}
                     </button>
                 </form>
             </div>
@@ -214,17 +206,16 @@ export class ContactFormComponent {
         if (this.contactForm.valid) {
             const formValue = this.contactForm.getRawValue();
             this.formSubmit.emit(formValue);
+            void this.onSubmitEvent(formValue);
         }
     };
 
-    @HostListener('formSubmit', ['$event'])
     protected async onSubmitEvent(formValue: {
         name: string;
         email: string;
         phone: string;
         message: string;
     }): Promise<void> {
-        console.log('Contact Form Submitted:', formValue);
         this.isSubmitting.set(true);
         const accessKey: string = environment.contactFormAccessKey;
         try {

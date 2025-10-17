@@ -18,7 +18,6 @@ import {
 import {
     ContactFormComponent,
     IContactFormVM,
-    IContactFormData,
 } from '../../shared/components/contact-form/contact-form.component';
 
 @Component({
@@ -95,10 +94,7 @@ import {
 
             <!-- Contact Section -->
             <section id="contact">
-                <app-contact-form
-                    [vm]="contactVM()"
-                    (formSubmit)="onContactFormSubmit($event)"
-                />
+                <app-contact-form [vm]="contactVM()" />
             </section>
         </div>
     `,
@@ -177,12 +173,6 @@ export class HomeComponent {
                 messageKey: 'contact.form.message',
                 sendKey: 'contact.form.send',
             },
-            loading: false,
         })
     );
-
-    readonly onContactFormSubmit = (formData: IContactFormData): void => {
-        console.log('Contact form submitted:', formData);
-        // TODO: Send contact form data to backend
-    };
 }
