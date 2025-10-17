@@ -50,6 +50,12 @@
         "sitemap": "Sitemap",
         "socials": "Social Media"
     },
+    "navigation": {
+        "home": "Home",
+        "about": "About",
+        "projects": "Projects",
+        "contact": "Contact"
+    },
     "projects": {
         "homewell": {
             "title": "HOMEWELL",

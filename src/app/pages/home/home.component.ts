@@ -115,7 +115,7 @@ export class HomeComponent {
             ctaUrl: '#about',
             backgroundVariant: 'primary',
             showSecondCta: false,
-            backgroundImage: '/homewell-3D-utcai-3.png',
+            backgroundImage: 'assets/images/homewell-3D-utcai-3.webp',
         })
     );
 
@@ -150,7 +150,7 @@ export class HomeComponent {
             descriptionKey: 'projects.homewell.description',
             statusKey: 'projects.homewell.status',
             statusMessageKey: 'projects.homewell.statusMessage',
-            imageUrl: '/homewell-3D-utcai-3.png',
+            imageUrl: 'assets/images/homewell-3D-utcai-3.webp',
             imageAltKey: 'projects.homewell.images.cardAlt',
             ctaTextKey: 'projects.actions.viewDetails',
             variant: 'featured',
@@ -159,7 +159,7 @@ export class HomeComponent {
             id: 'casa-aquila',
             titleKey: 'projects.casaAquila.title',
             descriptionKey: 'projects.casaAquila.description',
-            imageUrl: '/casa-aquila-homlokzat.jpg',
+            imageUrl: 'assets/images/casa-aquila-homlokzat.webp',
             imageAltKey: 'projects.casaAquila.images.cardAlt',
             ctaTextKey: 'projects.actions.viewDetails',
             variant: 'default',

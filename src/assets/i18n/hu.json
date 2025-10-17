@@ -47,8 +47,14 @@
     "footer": {
         "company": "Archland Kft.",
         "description": "Társasházi lakások tervezése, kivitelezése és értékesítése Hajdúszoboszlón és környékén.",
-        "sitemap": "Sitemap",
+        "sitemap": "Oldaltérkép",
         "socials": "Közösségi média"
+    },
+    "navigation": {
+        "home": "Főoldal",
+        "about": "Rólunk",
+        "projects": "Projektek",
+        "contact": "Kapcsolat"
     },
     "projects": {
         "homewell": {

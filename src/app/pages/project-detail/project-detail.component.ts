@@ -203,19 +203,19 @@ export class ProjectDetailComponent {
                 fullDescriptionKey: 'projects.homewell.fullDescription',
                 images: [
                     {
-                        url: '/homewell-3D-utcai-3.png',
+                        url: 'assets/images/homewell-3D-utcai-3.webp',
                         altKey: 'projects.homewell.images.gallery.exterior',
                     },
                     {
-                        url: '/homewell-03.jpg',
+                        url: 'assets/images/homewell-03.webp',
                         altKey: 'projects.homewell.images.gallery.construction',
                     },
                     {
-                        url: '/home-well-07.jpg',
+                        url: 'assets/images/home-well-07.webp',
                         altKey: 'projects.homewell.images.gallery.interior',
                     },
                     {
-                        url: '/HOMEWELL-6-lakas.jpg',
+                        url: 'assets/images/HOMEWELL-6-lakas.webp',
                         altKey: 'projects.homewell.images.gallery.floorplan',
                     },
                 ],
@@ -238,19 +238,19 @@ export class ProjectDetailComponent {
                 fullDescriptionKey: 'projects.casaAquila.fullDescription',
                 images: [
                     {
-                        url: '/casa-aquila-homlokzat.jpg',
+                        url: 'assets/images/casa-aquila-homlokzat.webp',
                         altKey: 'projects.casaAquila.images.gallery.exterior',
                     },
                     {
-                        url: '/casa_0000_LS25_04.jpg',
+                        url: 'assets/images/casa_0000_LS25_04.webp',
                         altKey: 'projects.casaAquila.images.gallery.detail',
                     },
                     {
-                        url: '/casa_0001_IMG_20250528_101914.jpg',
+                        url: 'assets/images/casa_0001_IMG_20250528_101914.webp',
                         altKey: 'projects.casaAquila.images.gallery.construction',
                     },
                     {
-                        url: '/casa_0002_IMG_20250528_101728.jpg',
+                        url: 'assets/images/casa_0002_IMG_20250528_101728.webp',
                         altKey: 'projects.casaAquila.images.gallery.structure',
                     },
                 ],
@@ -273,11 +273,11 @@ export class ProjectDetailComponent {
                 fullDescriptionKey: 'projects.goldResidence.description',
                 images: [
                     {
-                        url: '/gold-residence-utcai-bejarat.jpg',
+                        url: 'assets/images/gold-residence-utcai-bejarat.webp',
                         altKey: 'projects.goldResidence.images.gallery.exterior',
                     },
                     {
-                        url: '/gold-residence-kert-es-terasz.jpg',
+                        url: 'assets/images/gold-residence-kert-es-terasz.webp',
                         altKey: 'projects.goldResidence.images.gallery.garden',
                     },
                 ],
@@ -301,19 +301,19 @@ export class ProjectDetailComponent {
                 fullDescriptionKey: 'projects.oasisResidence.description',
                 images: [
                     {
-                        url: '/oasis_0009_Szurmai-1-B-epulet-esti.jpg',
+                        url: 'assets/images/oasis_0009_Szurmai-1-B-epulet-esti.webp',
                         altKey: 'projects.oasisResidence.images.gallery.exterior',
                     },
                     {
-                        url: '/oasis_0000_Szurmai-10-belso-2.jpg',
+                        url: 'assets/images/oasis_0000_Szurmai-10-belso-2.webp',
                         altKey: 'projects.oasisResidence.images.gallery.interior',
                     },
                     {
-                        url: '/oasis_0001_Szurmai-9-belso-1.jpg',
+                        url: 'assets/images/oasis_0001_Szurmai-9-belso-1.webp',
                         altKey: 'projects.oasisResidence.images.gallery.courtyard',
                     },
                     {
-                        url: '/oasis-medence-3d.jpg',
+                        url: 'assets/images/oasis-medence-3d.webp',
                         altKey: 'projects.oasisResidence.images.gallery.pool',
                     },
                 ],
@@ -337,15 +337,15 @@ export class ProjectDetailComponent {
                 fullDescriptionKey: 'projects.hogyes16.description',
                 images: [
                     {
-                        url: '/hogyes_0000_IMG_20250528_0945161.jpg',
+                        url: 'assets/images/hogyes_0000_IMG_20250528_0945161.webp',
                         altKey: 'projects.hogyes16.images.gallery.exterior',
                     },
                     {
-                        url: '/hogyes_0001_IMG_20250528_0944381.jpg',
+                        url: 'assets/images/hogyes_0001_IMG_20250528_0944381.webp',
                         altKey: 'projects.hogyes16.images.gallery.detail',
                     },
                     {
-                        url: '/hogyes_0002_IMG_20250528_0944111.jpg',
+                        url: 'assets/images/hogyes_0002_IMG_20250528_0944111.webp',
                         altKey: 'projects.hogyes16.images.gallery.facade',
                     },
                 ],
