@@ -32,7 +32,7 @@ jobs:
         run: npm i
 
       - name: Build Angular app for GitHub Pages
-        run: npm run build -- --configuration production --base-href "/${{ github.event.repository.name }}/"
+        run: npm run build -- --configuration production
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
